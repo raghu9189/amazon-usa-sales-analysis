@@ -1,0 +1,121 @@
+product_id,product_name,price,cogs,category_id
+1,Wireless Bluetooth Earbuds,39.99,14.50,1
+2,Noise-Cancelling Headphones,89.99,38.00,1
+3,Portable Bluetooth Speaker,49.99,21.00,1
+4,USB-C Fast Charger 30W,18.99,5.25,1
+5,Braided USB-C Charging Cable 2-Pack,12.99,3.10,1
+6,65W USB-C Laptop Charger,39.99,15.00,1
+7,Wireless Optical Mouse,19.99,6.50,1
+8,Mechanical Gaming Keyboard,69.99,29.00,1
+9,1080p Webcam,44.99,18.50,1
+10,27-Inch QHD Monitor,229.99,158.00,1
+11,Portable SSD 1TB,89.99,55.00,1
+12,USB 3.0 Flash Drive 128GB,16.99,5.80,1
+13,Wi-Fi 6 Router,99.99,59.00,1
+14,Smart Plug 2-Pack,24.99,8.00,1
+15,Indoor Security Camera,39.99,17.50,1
+16,Fitness Smartwatch,119.99,53.00,1
+17,E-Reader 6-Inch,109.99,62.00,1
+18,Tablet 10-Inch 128GB,249.99,178.00,1
+19,Laptop Stand Aluminum,34.99,12.00,1
+20,Surge Protector 8-Outlet,27.99,9.25,1
+21,Men's Cotton Crew-Neck T-Shirt,14.99,4.20,2
+22,Women's Relaxed-Fit T-Shirt,16.99,5.00,2
+23,Men's Slim-Fit Jeans,39.99,16.00,2
+24,Women's Straight-Leg Jeans,44.99,18.00,2
+25,Unisex Zip-Up Hoodie,34.99,13.00,2
+26,Men's Lightweight Running Shorts,22.99,7.00,2
+27,Women's Yoga Leggings,29.99,9.50,2
+28,Men's Casual Button-Down Shirt,32.99,12.00,2
+29,Women's Knit Cardigan,39.99,15.50,2
+30,Water-Resistant Windbreaker,49.99,21.00,2
+31,Pack of 5 Ankle Socks,12.99,3.50,2
+32,Cotton Pajama Set,29.99,10.00,2
+33,Everyday Canvas Sneakers,39.99,17.00,2
+34,Leather-Look Belt,18.99,5.50,2
+35,Classic Baseball Cap,16.99,4.50,2
+36,Fleece-Lined Winter Gloves,19.99,6.00,2
+37,Lightweight Puffer Vest,54.99,24.00,2
+38,Women's Midi Summer Dress,42.99,16.00,2
+39,Men's Chino Pants,36.99,14.00,2
+40,Unisex Rain Jacket,45.99,19.00,2
+41,Stainless Steel Water Bottle 32oz,24.99,8.50,3
+42,Nonstick Frying Pan 10-Inch,29.99,11.00,3
+43,Stainless Steel Saucepan 2qt,34.99,14.00,3
+44,Ceramic Dinner Plate Set of 6,39.99,16.00,3
+45,Glass Food Storage Containers 10-Piece,32.99,12.50,3
+46,Cotton Bath Towel Set of 4,29.99,10.50,3
+47,Microfiber Sheet Set Queen,39.99,15.00,3
+48,Memory Foam Pillow 2-Pack,34.99,13.00,3
+49,Blackout Curtains Pair,27.99,9.00,3
+50,LED Desk Lamp with USB Port,26.99,10.00,3
+51,Cordless Handheld Vacuum,59.99,31.00,3
+52,Robot Vacuum Cleaner,199.99,128.00,3
+53,Air Fryer 5-Quart,89.99,48.00,3
+54,Programmable Coffee Maker,49.99,25.00,3
+55,Electric Kettle 1.7L,34.99,15.00,3
+56,Digital Kitchen Scale,18.99,5.50,3
+57,Bamboo Cutting Board Set,22.99,7.50,3
+58,Reusable Food Storage Bags 6-Pack,15.99,4.80,3
+59,Under-Sink Organizer 2-Tier,29.99,11.00,3
+60,Stackable Storage Bins 4-Pack,24.99,8.00,3
+61,Dry Dog Food Chicken Recipe 5lb,19.99,10.00,4
+62,Dry Cat Food Salmon Recipe 4lb,17.99,8.50,4
+63,Clumping Cat Litter 20lb,21.99,11.00,4
+64,Dog Waste Bags 120-Count,12.99,3.20,4
+65,Adjustable Dog Harness,24.99,8.50,4
+66,Reflective Dog Leash 6ft,15.99,4.50,4
+67,Plush Squeaky Dog Toy 3-Pack,13.99,4.00,4
+68,Cat Teaser Wand Set,9.99,2.50,4
+69,Stainless Steel Pet Bowls 2-Pack,18.99,6.00,4
+70,Pet Grooming Brush,14.99,4.50,4
+71,Self-Cleaning Slicker Brush,19.99,7.00,4
+72,Orthopedic Dog Bed Medium,49.99,25.00,4
+73,Washable Pet Blanket,22.99,8.00,4
+74,Covered Cat Litter Box,39.99,19.00,4
+75,Cat Scratching Post,34.99,16.00,4
+76,Pet Travel Carrier,44.99,23.00,4
+77,Automatic Pet Water Fountain,29.99,12.00,4
+78,Slow-Feeder Dog Bowl,16.99,5.00,4
+79,Bird Seed Mix 5lb,15.99,8.00,4
+80,Aquarium Filter for 20-Gallon Tank,27.99,13.00,4
+81,Building Blocks Starter Set,29.99,12.00,5
+82,Wooden Alphabet Puzzle,14.99,4.50,5
+83,Remote-Controlled Car,34.99,16.00,5
+84,Board Game for Families,24.99,9.00,5
+85,500-Piece Jigsaw Puzzle,16.99,5.00,5
+86,Dinosaur Figure Set,19.99,7.00,5
+87,Doll with Outfit Set,24.99,10.00,5
+88,Kids' Art Supplies Kit,22.99,8.00,5
+89,Magnetic Building Tiles 60-Piece,39.99,18.00,5
+90,Science Experiment Kit,27.99,11.00,5
+91,Plush Teddy Bear,19.99,6.50,5
+92,Toy Kitchen Play Set,59.99,32.00,5
+93,Watercolor Painting Set,15.99,4.50,5
+94,Card Game for Ages 8+,9.99,2.50,5
+95,Foam Sports Ball Set,18.99,6.00,5
+96,Kids' Walkie-Talkies 2-Pack,29.99,13.00,5
+97,Train Track Starter Set,44.99,23.00,5
+98,RC Drone for Beginners,49.99,28.00,5
+99,Stuffed Animal 3-Pack,24.99,8.50,5
+100,Outdoor Bubble Machine,21.99,8.00,5
+101,Yoga Mat 6mm,24.99,8.00,6
+102,Adjustable Dumbbell Pair,149.99,92.00,6
+103,Resistance Bands Set,19.99,5.50,6
+104,Stainless Steel Sports Bottle,19.99,6.50,6
+105,Lightweight Running Belt,16.99,4.80,6
+106,Camping LED Lantern,24.99,9.00,6
+107,Four-Person Camping Tent,129.99,79.00,6
+108,Compact Sleeping Bag 3-Season,59.99,32.00,6
+109,Hiking Daypack 25L,54.99,24.00,6
+110,Trekking Poles Pair,39.99,17.00,6
+111,Portable Camping Stove,44.99,25.00,6
+112,Insulated Cooler 24-Can,39.99,18.00,6
+113,Road Cycling Helmet,49.99,22.00,6
+114,Bike Repair Tool Kit,27.99,10.00,6
+115,Basketball Size 7,29.99,12.00,6
+116,Soccer Ball Size 5,24.99,9.00,6
+117,Badminton Racket Set,34.99,13.00,6
+118,Pickleball Paddle Set,49.99,21.00,6
+119,Fishing Tackle Starter Kit,32.99,14.00,6
+120,Foldable Camping Chair,29.99,12.00,6

@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (if you want to ignore large raw datasets, uncomment below)
+# *.csv
+# *.json
