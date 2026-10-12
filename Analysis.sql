@@ -247,17 +247,23 @@ sellers_status;
 Calculate the profit margin for each product (difference between price and cost of goods sold).
 Challenge: Rank products by their profit margin, showing highest to lowest.
 */
-with products_profits as (
-select
-	*,
-	price - cogs as profit_diff
-from products
-order by profit_diff desc)
+with top_products_by_margin as (
+select 
+	p.product_id,
+    p.product_name,
+    sum((p.price * oi.quantity) - (p.cogs * oi.quantity)) as total_profit,
+    sum((p.price * oi.quantity) - (p.cogs * oi.quantity))/sum(p.price * oi.quantity)* 100  as profit_margin
+from order_items oi
+join products p
+on oi.product_id = p.product_id
+group by p.product_id )
 
-select
-	*,
-    dense_rank() over(order by profit_diff desc) as ranked
-from products_profits
+select 
+	product_name,
+    total_profit,
+    profit_margin,
+    dense_rank() over(order by profit_margin desc) as 'rank'
+from top_products_by_margin
 ;
 
 /*
@@ -265,47 +271,3 @@ from products_profits
 Query the top 10 products by the number of returns.
 Challenge: Display the return rate as a percentage of total units sold for each product.
 */
-with grouped_products as (
-select
-	p.product_id,
-    p.product_name,
-    o.order_status,
-    sum(oi.quantity) as total_orders
-from orders o
-join order_items oi
-on o.order_id = oi.order_id
-join products p 
-on oi.product_id = p.product_id
-group by p.product_id, o.order_status
-),
-grouped_products_2 as  (
-select
-	product_id,
-    product_name,
-    order_status,
-    total_orders,
-    sum(total_orders) over(partition by product_id) as total_orders_count
-from grouped_products)
-
-select
-	product_id,
-    product_name,
-    total_orders as returned_count,
-    total_orders_count as total_orders,
-    (total_orders/total_orders_count) * 100 as perc
-from grouped_products_2
-where order_status = 'Returned'
-order by perc desc 
-limit 10
-;
-
--- select distinct order_status from orders;
-
-
-
-
-
-
-
-
-
