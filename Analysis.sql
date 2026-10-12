@@ -271,3 +271,125 @@ from top_products_by_margin
 Query the top 10 products by the number of returns.
 Challenge: Display the return rate as a percentage of total units sold for each product.
 */
+with products_with_returns as (
+select
+	p.product_id,
+    p.product_name,
+    count(p.product_id) as total_orders,
+    sum(case when o.order_status = 'Returned' then 1 else 0 end) as return_count
+from orders o
+join order_items oi
+on o.order_id = oi.order_id
+join products p
+on oi.product_id = p.product_id
+group by p.product_id, p.product_name)
+
+select
+	product_id,
+    product_name,
+    return_count,
+    (return_count/total_orders)*100 as return_percentage
+from products_with_returns 
+order by return_percentage desc
+limit 10
+;
+
+/*
+15. Inactive Sellers
+Identify sellers who haven’t made any sales in the last 6 months.
+Challenge: Show the last sale date and total sales from those sellers.
+*/
+with sellers_inactive as (
+select
+	*
+from sellers 
+where seller_id not in (
+	select 
+		seller_id 
+	from orders 
+    where order_date >= (current_date() - interval 6 month)
+)
+)
+select
+	o.seller_id,
+    max(o.order_date) as last_order_date,
+    max(oi.total_price) as last_total_sales
+from orders o
+join order_items oi
+on o.order_id = oi.order_id
+join sellers_inactive si
+on o.seller_id = si.seller_id
+group by o.seller_id
+;
+
+/*
+16. IDENTITY customers into returning or new
+if the customer has done more than 5 return categorize them as returning otherwise new
+Challenge: List customers id, name, total orders, total returns
+*/
+select
+	customer_id,
+	full_name,
+    total_orders,
+    total_returns,
+    case when total_returns > 5 then 'Returning' else 'New' end as cx_category
+from (
+select
+	c.customer_id,
+    concat(c.first_name, ' ', c.last_name) as full_name,
+    count(o.order_id) as total_orders,
+    sum(case when o.order_status = 'Returned' then 1 else 0 end) as total_returns
+from customers c
+join orders o
+on c.customer_id = o.customer_id
+group by c.customer_id) t;
+
+
+/*
+18. Top 5 Customers by Orders in Each State
+Identify the top 5 customers with the highest number of orders for each state.
+Challenge: Include the number of orders and total sales for each customer.
+*/
+
+WITH customer_orders AS (
+    SELECT
+        c.state,
+        c.customer_id,
+        COUNT(DISTINCT o.order_id) AS total_orders,
+        SUM(oi.total_price) AS total_sales
+    FROM customers c
+    JOIN orders o
+        ON c.customer_id = o.customer_id
+    JOIN order_items oi
+        ON o.order_id = oi.order_id
+    GROUP BY
+        c.state,
+        c.customer_id
+),
+ranked_customers AS (
+    SELECT
+        state,
+        customer_id,
+        total_orders,
+        total_sales,
+        DENSE_RANK() OVER (
+            PARTITION BY state
+            ORDER BY total_orders DESC
+        ) AS rnk
+    FROM customer_orders
+)
+SELECT
+    state,
+    customer_id,
+    total_orders,
+    total_sales,
+    rnk
+FROM ranked_customers
+WHERE rnk <= 5
+-- ORDER BY state, rnk, customer_id;
+
+/*
+19. Revenue by Shipping Provider
+Calculate the total revenue handled by each shipping provider.
+Challenge: Include the total number of orders handled and the average delivery time for each provider.
+*/

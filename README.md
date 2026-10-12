@@ -48,6 +48,15 @@ I cleaned the dataset by:
   - **Payment statuses**: Orders with null payment statuses were categorized as “Pending.”
   - **Shipping information**: Null return dates were left as is, as not all shipments are returned.
 
+## 📂 Project Structure
+
+- `Analysis.sql`: In-depth business analysis and complex SQL queries addressing real-world e-commerce challenges.
+- `schemas.sql`: DDL scripts for database creation, table definitions, primary keys, and foreign key constraints.
+- `EDA.sql`: Exploratory data analysis queries for data verification, record counts, and null value checks.
+- `Problem Statements.sql`: Complete compilation of 22 business problems and analytical challenges.
+- `ERD.png`: Entity-Relationship Diagram depicting the database architecture and relational schema.
+- `datasets/`: Raw and supplementary CSV datasets (customers, sellers, orders, order items, products, payments, shipping, inventory).
+
 ## 💼 Business Problems Solved
 
 Here are some of the key business problems and questions answered using advanced SQL queries:
@@ -55,24 +64,28 @@ Here are some of the key business problems and questions answered using advanced
 1. **Top Selling Products**: Queried the top 10 products by total sales value, including product name, quantity sold, and total sales.
 2. **Revenue by Category**: Calculated the total revenue and percentage contribution of each product category.
 3. **Average Order Value (AOV)**: Computed the AOV for customers with more than 5 orders.
-4. **Monthly Sales Trend**: Analyzed the monthly total sales over the past year, comparing current and previous months.
-5. **Customers with No Purchases**: Identified customers who registered but never placed an order.
-6. **Least-Selling Categories by State**: Found the least-selling product category for each state.
-7. **Customer Lifetime Value (CLTV)**: Calculated the total value of orders placed by each customer and ranked them.
+4. **Monthly Sales Trend**: Analyzed the monthly total sales over the past year, comparing current and previous months using `LAG()`.
+5. **Customers with No Purchases**: Identified customers who registered but never placed an order using `LEFT JOIN` / subqueries.
+6. **Least-Selling Categories by State**: Found the least-selling product category for each state using window ranking (`RANK()`).
+7. **Customer Lifetime Value (CLTV)**: Calculated the total value of orders placed by each customer and ranked them using `DENSE_RANK()`.
 8. **Inventory Stock Alerts**: Highlighted products with stock levels below 10 units, including warehouse and restock info.
-9. **Shipping Delays**: Identified orders with shipping delays exceeding 3 days and their delivery providers.
+9. **Shipping Delays**: Identified orders with shipping delays exceeding 3 days and their delivery providers using `DATEDIFF()`.
 10. **Payment Success Rate**: Calculated the percentage of successful payments and breakdown by payment status.
 11. **Top Performing Sellers**: Found the top 5 sellers based on total sales and analyzed their successful order rates.
-12. **Product Profit Margin**: Calculated the profit margin (Price - COGS) for each product and ranked them.
-13. **Most Returned Products**: Queried the top 10 products by return rate percentage.
+12. **Product Profit Margin**: Calculated total profit and profit margin percentage `((Price - COGS) / Price * 100)` for each product and ranked them.
+13. **Most Returned Products**: Queried the top 10 products by return rate percentage of total units sold.
+14. **Inactive Sellers**: Identified sellers who haven’t made any sales in the last 6 months, including their last sale date and total sales.
+15. **Customer Classification (Returning vs. New)**: Categorized customers into 'Returning' or 'New' based on return thresholds (more than 5 returns categorized as returning), displaying total orders and returns.
+16. **Top 5 Customers by Orders in Each State**: Identified the top 5 customers with the highest number of orders for each state using window ranking (`DENSE_RANK()`), displaying total orders and total sales.
 
 ## 💡 Learning Outcomes
 
 This project enabled me to:
-- Design and implement a normalized database schema.
+- Design and implement a normalized database schema with relational integrity.
 - Clean and preprocess real-world datasets for analysis.
-- Use advanced SQL techniques, including **window functions**, **CTEs (Common Table Expressions)**, **subqueries**, and **complex joins**.
-- Conduct in-depth business analysis using SQL.
+- Use advanced SQL techniques, including **window functions** (`DENSE_RANK()`, `RANK()`, `LAG()`), **CTEs (Common Table Expressions)**, **subqueries**, and **complex multi-table joins**.
+- Apply conditional logic (`CASE WHEN`) and date manipulations (`DATEDIFF()`, `INTERVAL`).
+- Conduct in-depth business analysis and data modeling using SQL.
 - Optimize query performance and handle large datasets efficiently.
 
 ## 🚀 Conclusion

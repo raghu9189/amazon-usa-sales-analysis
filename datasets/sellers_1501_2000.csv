@@ -1,0 +1,501 @@
+seller_id,seller_name,origin
+1501,Clearwater Trading,Colombia
+1502,Evergreen Trading,Mexico
+1503,Prime Path Company,Nigeria
+1504,Pioneer Exports,Japan
+1505,Evergreen Distributors,Switzerland
+1506,Prime Path Direct,Switzerland
+1507,Pioneer Direct,Egypt
+1508,Cobalt Stores,France
+1509,Trailhead Direct,Germany
+1510,Cedar Marketplace,Norway
+1511,Unity Solutions,New Zealand
+1512,Pioneer Products,Morocco
+1513,Beacon Goods,United Kingdom
+1514,Sterling Solutions,Singapore
+1515,Canyon Marketplace,Argentina
+1516,Orchid Supplies,United States
+1517,Orchid Commerce,Japan
+1518,Cobalt Company,Italy
+1519,Clearwater Solutions,Saudi Arabia
+1520,Evercrest Retail,Denmark
+1521,Valley Forge Company,Mexico
+1522,Bluebird Wholesale,Vietnam
+1523,Westlake Imports,Morocco
+1524,Oak Pine Retail,Switzerland
+1525,Cobalt Merchants,Colombia
+1526,Evergreen Goods,Turkey
+1527,Highland Company,Mexico
+1528,Grand Avenue Ventures,Portugal
+1529,Sunrise Stores,Spain
+1530,Beacon Ventures,Sri Lanka
+1531,Valley Forge Merchants,Australia
+1532,Cedar Wholesale,United Kingdom
+1533,Nova Company,United Kingdom
+1534,Blue River Marketplace,Spain
+1535,Oak Pine Exports,Italy
+1536,Meadowbrook Ventures,Bangladesh
+1537,Meadowbrook Trading,Israel
+1538,Maple Leaf Exports,India
+1539,Blue River Solutions,Philippines
+1540,Northstar Exports,Qatar
+1541,Bridgepoint Supplies,Spain
+1542,Blue River Commerce,Netherlands
+1543,Marketway Stores,Portugal
+1544,Fairview Trading,Netherlands
+1545,Horizon Direct,Philippines
+1546,Willow Distributors,Israel
+1547,Cloudline Exports,Australia
+1548,Grand Avenue Company,India
+1549,Meadowbrook Enterprises,Pakistan
+1550,Maple Leaf Direct,Czechia
+1551,Northstar Goods,Netherlands
+1552,Springwell Trading,Philippines
+1553,Harbor Stores,Kenya
+1554,Urban Nest Solutions,Spain
+1555,Evercrest Solutions,Pakistan
+1556,Redwood Marketplace,Japan
+1557,Greenstone Supplies,Czechia
+1558,Canyon Commerce,Kenya
+1559,Silverline Stores,Spain
+1560,Meridian Exports,Bangladesh
+1561,Blue River Goods,Thailand
+1562,Sterling Retail,Qatar
+1563,Sterling Merchants,Ireland
+1564,Cedar Exports,Australia
+1565,Northstar Distributors,Argentina
+1566,Nova Commerce,Australia
+1567,Eastwood Enterprises,New Zealand
+1568,Fairview Supplies,Thailand
+1569,Crown Enterprises,Egypt
+1570,Harbor Trading,Turkey
+1571,Clearwater Direct,Canada
+1572,Atlas Company,Pakistan
+1573,Silver Oak Supplies,Czechia
+1574,Urban Nest Distributors,Qatar
+1575,Sunrise Commerce,Israel
+1576,Bluebird Direct,Vietnam
+1577,Brightway Exports,Kenya
+1578,Meridian Trading,Egypt
+1579,Ironwood Distributors,Denmark
+1580,Highland Merchants,Switzerland
+1581,Cedar Company,Australia
+1582,TrueNorth Products,South Africa
+1583,Sunrise Enterprises,France
+1584,Trailhead Imports,Norway
+1585,Brightway Distributors,Argentina
+1586,Coastal Goods,France
+1587,Westbridge Direct,Italy
+1588,Riverside Direct,Kenya
+1589,Clearwater Company,United Arab Emirates
+1590,Bluepeak Imports,Israel
+1591,Bridgepoint Retail,Australia
+1592,TrueNorth Ventures,Poland
+1593,Brightfield Solutions,Japan
+1594,Bluebird Ventures,Colombia
+1595,Northwind Products,Indonesia
+1596,Pinecrest Stores,Poland
+1597,Eastwood Solutions,Portugal
+1598,Meridian Distributors,Saudi Arabia
+1599,Kingsway Direct,Pakistan
+1600,Westlake Wholesale,Colombia
+1601,Orchid Marketplace,Italy
+1602,Stonewell Direct,Spain
+1603,Kingsway Exports,France
+1604,Evercrest Goods,Turkey
+1605,Pinecrest Exports,Japan
+1606,Greenstone Goods,Egypt
+1607,Evergreen Marketplace,Czechia
+1608,Maple Leaf Enterprises,United Kingdom
+1609,Cloudline Company,Qatar
+1610,Golden Gate Trading,Egypt
+1611,Greenstone Imports,Australia
+1612,Kingsway Merchants,United Arab Emirates
+1613,Unity Retail,Denmark
+1614,Greenstone Direct,United Kingdom
+1615,Valley Forge Distributors,Greece
+1616,Golden Gate Goods,Australia
+1617,Coastal Solutions,Qatar
+1618,Marketway Wholesale,United Kingdom
+1619,Redwood Direct,Mexico
+1620,Silver Oak Exports,Turkey
+1621,Oak Pine Company,Egypt
+1622,Golden Gate Merchants,United States
+1623,Oak Pine Direct,Vietnam
+1624,Unity Trading,Spain
+1625,Highland Direct,Nigeria
+1626,Brightfield Distributors,Pakistan
+1627,Bluepeak Direct,Brazil
+1628,Harbor Goods,Brazil
+1629,Blue River Imports,Thailand
+1630,Silverline Supplies,Israel
+1631,Coastal Company,Spain
+1632,Northwind Marketplace,Switzerland
+1633,Unity Exports,Mexico
+1634,Brightfield Retail,Saudi Arabia
+1635,Skyline Solutions,Sweden
+1636,Vertex Exports,Saudi Arabia
+1637,Cedar Retail,Netherlands
+1638,Grand Avenue Wholesale,Malaysia
+1639,Kingsway Goods,South Korea
+1640,Oak Pine Trading,Saudi Arabia
+1641,Prime Path Products,Vietnam
+1642,Crown Supplies,Sweden
+1643,Nova Enterprises,Brazil
+1644,Redstone Retail,Saudi Arabia
+1645,Ironwood Goods,Chile
+1646,Pioneer Marketplace,Nigeria
+1647,Pioneer Enterprises,Peru
+1648,Brightway Wholesale,Brazil
+1649,Riverside Retail,Brazil
+1650,Westbridge Trading,United Arab Emirates
+1651,Northwind Supplies,Switzerland
+1652,Redstone Commerce,Pakistan
+1653,Unity Imports,Australia
+1654,Sunrise Marketplace,Israel
+1655,Urban Nest Imports,Qatar
+1656,Pinecrest Commerce,United States
+1657,Meridian Ventures,Malaysia
+1658,Crescent Merchants,Philippines
+1659,Atlas Merchants,Malaysia
+1660,Nova Retail,Austria
+1661,Eastwood Imports,Brazil
+1662,Crown Commerce,Mexico
+1663,Meridian Products,Qatar
+1664,Meadowbrook Direct,Norway
+1665,Urban Nest Products,Singapore
+1666,Golden Gate Exports,South Korea
+1667,Valley Forge Imports,Greece
+1668,Greenfield Solutions,Malaysia
+1669,Redstone Wholesale,Belgium
+1670,Blue River Direct,Belgium
+1671,Sunrise Exports,Sri Lanka
+1672,Summit Marketplace,Greece
+1673,Fairview Enterprises,Japan
+1674,Valley Forge Trading,Chile
+1675,Bluepeak Commerce,Saudi Arabia
+1676,Vertex Retail,South Korea
+1677,Redwood Products,Saudi Arabia
+1678,Highland Stores,Peru
+1679,Highland Marketplace,Saudi Arabia
+1680,TrueNorth Enterprises,Malaysia
+1681,Trailhead Distributors,Sri Lanka
+1682,Coastal Trading,New Zealand
+1683,Maple Leaf Commerce,Mexico
+1684,Westlake Commerce,Ireland
+1685,Vertex Commerce,Norway
+1686,Oakridge Products,Italy
+1687,Sterling Trading,Mexico
+1688,Sterling Imports,Singapore
+1689,Beacon Retail,Sweden
+1690,Skyline Direct,United Arab Emirates
+1691,Nova Goods,Sri Lanka
+1692,Ironwood Wholesale,Nepal
+1693,Prime Path Goods,Belgium
+1694,Lighthouse Ventures,Switzerland
+1695,Meadowbrook Supplies,Nigeria
+1696,Lighthouse Solutions,Morocco
+1697,Trailhead Enterprises,Turkey
+1698,Crescent Stores,Vietnam
+1699,Lighthouse Commerce,Australia
+1700,Crescent Trading,Singapore
+1701,Orchid Products,Argentina
+1702,Pioneer Company,Germany
+1703,Riverside Stores,South Africa
+1704,Sterling Commerce,Finland
+1705,Atlas Trading,Brazil
+1706,Brightway Direct,Singapore
+1707,Canyon Goods,South Korea
+1708,Grand Avenue Direct,Finland
+1709,Trailhead Trading,Vietnam
+1710,Pinecrest Merchants,Bangladesh
+1711,Stonewell Commerce,Ireland
+1712,Clearwater Exports,Czechia
+1713,Meadowbrook Stores,Spain
+1714,Maple Leaf Imports,Finland
+1715,Blue River Products,South Korea
+1716,Evercrest Exports,Poland
+1717,Silverline Products,United Arab Emirates
+1718,Grand Avenue Trading,Saudi Arabia
+1719,Northwind Commerce,Portugal
+1720,Westlake Distributors,Ukraine
+1721,Crescent Exports,Netherlands
+1722,Bluebird Solutions,France
+1723,Crown Goods,Mexico
+1724,Oakridge Enterprises,Spain
+1725,Skyline Merchants,Canada
+1726,Marketway Exports,Qatar
+1727,Crown Products,Pakistan
+1728,Harbor Distributors,Canada
+1729,Harbor Retail,India
+1730,Atlas Imports,Sri Lanka
+1731,Valley Forge Products,Egypt
+1732,Cobalt Supplies,Italy
+1733,Canyon Merchants,India
+1734,Riverside Solutions,Finland
+1735,Brightway Marketplace,Nepal
+1736,Evergreen Exports,Ireland
+1737,Vertex Marketplace,Australia
+1738,Horizon Trading,Austria
+1739,Valley Forge Goods,Argentina
+1740,Greenfield Wholesale,South Korea
+1741,Prime Path Enterprises,Finland
+1742,Canyon Ventures,Pakistan
+1743,Urban Nest Enterprises,France
+1744,Summit Trading,Thailand
+1745,Trailhead Retail,Kenya
+1746,Harbor Wholesale,Qatar
+1747,Springwell Distributors,Netherlands
+1748,Evergreen Solutions,Australia
+1749,Crown Direct,Brazil
+1750,Cobalt Direct,Kenya
+1751,Springwell Direct,United States
+1752,Redwood Solutions,South Korea
+1753,Evercrest Company,Belgium
+1754,Bluepeak Solutions,Chile
+1755,Sunrise Direct,Czechia
+1756,Evergreen Products,Philippines
+1757,Bridgepoint Marketplace,Australia
+1758,Marketway Solutions,Denmark
+1759,Bluepeak Distributors,Netherlands
+1760,Maple Leaf Solutions,United Kingdom
+1761,Bridgepoint Imports,Denmark
+1762,Evercrest Supplies,Israel
+1763,Greenfield Enterprises,Japan
+1764,Maple Leaf Goods,United States
+1765,Prime Path Retail,United Kingdom
+1766,Valley Forge Solutions,Sri Lanka
+1767,Sterling Ventures,Qatar
+1768,Ironwood Company,France
+1769,Summit Imports,Bangladesh
+1770,Westbridge Retail,Switzerland
+1771,Horizon Solutions,Mexico
+1772,Cloudline Supplies,Norway
+1773,Oakridge Stores,South Korea
+1774,Highland Retail,Indonesia
+1775,Grand Avenue Imports,Ukraine
+1776,Cobalt Wholesale,India
+1777,Meridian Marketplace,Spain
+1778,Sterling Goods,Mexico
+1779,Brightway Imports,Italy
+1780,Ironwood Retail,Sweden
+1781,Atlas Supplies,Sri Lanka
+1782,Orchid Merchants,Vietnam
+1783,Oakridge Trading,France
+1784,Bluepeak Products,Italy
+1785,Kingsway Solutions,Netherlands
+1786,Golden Gate Products,Finland
+1787,Maple Leaf Stores,United States
+1788,Summit Goods,New Zealand
+1789,Highland Imports,Greece
+1790,Nova Marketplace,Netherlands
+1791,Silver Oak Wholesale,Portugal
+1792,Riverside Ventures,Netherlands
+1793,Fairview Company,Turkey
+1794,Horizon Products,Nepal
+1795,Skyline Goods,Australia
+1796,Greenstone Enterprises,Argentina
+1797,Coastal Wholesale,Italy
+1798,Oakridge Merchants,Canada
+1799,Vertex Enterprises,United States
+1800,Kingsway Wholesale,Finland
+1801,Highland Goods,Nepal
+1802,Redwood Commerce,Italy
+1803,Greenfield Retail,Canada
+1804,Sunrise Imports,Qatar
+1805,Redstone Ventures,Brazil
+1806,Clearwater Enterprises,Switzerland
+1807,Westlake Goods,United Kingdom
+1808,Nova Imports,Austria
+1809,Marketway Enterprises,Turkey
+1810,Trailhead Stores,Vietnam
+1811,Stonewell Trading,Finland
+1812,Springwell Ventures,South Africa
+1813,Northwind Trading,Poland
+1814,Westbridge Goods,Kenya
+1815,Golden Gate Commerce,Singapore
+1816,Coastal Stores,Pakistan
+1817,Oak Pine Ventures,India
+1818,Evercrest Trading,France
+1819,Oak Pine Marketplace,Norway
+1820,Bluepeak Merchants,Saudi Arabia
+1821,Northstar Retail,Indonesia
+1822,Bridgepoint Commerce,Thailand
+1823,Coastal Commerce,Kenya
+1824,Pinecrest Company,Mexico
+1825,Beacon Enterprises,Argentina
+1826,Highland Supplies,United Arab Emirates
+1827,Clearwater Wholesale,United Kingdom
+1828,Evercrest Marketplace,Belgium
+1829,Urban Nest Supplies,Thailand
+1830,Bridgepoint Distributors,Philippines
+1831,TrueNorth Direct,New Zealand
+1832,Atlas Exports,Brazil
+1833,Sunrise Company,Germany
+1834,Sunrise Ventures,Peru
+1835,Meadowbrook Commerce,Saudi Arabia
+1836,Bluebird Company,Turkey
+1837,Crescent Enterprises,Sweden
+1838,Greenfield Supplies,Japan
+1839,Meridian Direct,Vietnam
+1840,Brightfield Trading,Morocco
+1841,Vertex Distributors,United States
+1842,Pinecrest Solutions,United States
+1843,Clearwater Distributors,Malaysia
+1844,Pinecrest Ventures,Pakistan
+1845,Horizon Supplies,United States
+1846,Coastal Direct,Kenya
+1847,Sterling Enterprises,Pakistan
+1848,Lighthouse Goods,Netherlands
+1849,Clearwater Stores,Thailand
+1850,Nova Ventures,Canada
+1851,Meadowbrook Exports,Turkey
+1852,Nova Distributors,Austria
+1853,Trailhead Company,New Zealand
+1854,Cedar Merchants,Ireland
+1855,Orchid Exports,France
+1856,Atlas Commerce,Czechia
+1857,Westbridge Company,Israel
+1858,Greenfield Trading,Norway
+1859,Blue River Merchants,Turkey
+1860,Cobalt Exports,Chile
+1861,Brightfield Stores,Italy
+1862,Pioneer Solutions,Morocco
+1863,Horizon Exports,Sweden
+1864,Crown Marketplace,Nigeria
+1865,Urban Nest Wholesale,Netherlands
+1866,Silverline Marketplace,Colombia
+1867,Vertex Merchants,Kenya
+1868,Vertex Solutions,Ukraine
+1869,Trailhead Wholesale,Nepal
+1870,Vertex Trading,Egypt
+1871,TrueNorth Exports,Argentina
+1872,Bluepeak Stores,Philippines
+1873,Brightway Trading,Nepal
+1874,Greenstone Wholesale,Qatar
+1875,Northwind Solutions,United States
+1876,Silver Oak Solutions,Greece
+1877,Redstone Goods,Denmark
+1878,TrueNorth Distributors,Chile
+1879,Riverside Marketplace,Vietnam
+1880,Horizon Goods,France
+1881,Golden Gate Stores,Switzerland
+1882,Atlas Retail,United Kingdom
+1883,Redstone Stores,Israel
+1884,Cloudline Marketplace,Vietnam
+1885,Atlas Direct,Brazil
+1886,Northstar Supplies,Czechia
+1887,Brightfield Exports,Vietnam
+1888,Highland Ventures,India
+1889,Greenstone Commerce,Peru
+1890,Oakridge Commerce,Nepal
+1891,Beacon Stores,Denmark
+1892,Northstar Imports,Kenya
+1893,Unity Wholesale,Malaysia
+1894,Meadowbrook Imports,Spain
+1895,Silverline Solutions,South Korea
+1896,Atlas Goods,Vietnam
+1897,Stonewell Marketplace,South Korea
+1898,Canyon Company,Czechia
+1899,Eastwood Exports,Colombia
+1900,Grand Avenue Commerce,United Arab Emirates
+1901,Harbor Supplies,Austria
+1902,Orchid Imports,Turkey
+1903,Kingsway Marketplace,Netherlands
+1904,Crown Merchants,Austria
+1905,Kingsway Commerce,Greece
+1906,Evercrest Enterprises,Portugal
+1907,Crown Trading,France
+1908,Redstone Marketplace,France
+1909,Unity Supplies,Indonesia
+1910,Horizon Stores,United Kingdom
+1911,Ironwood Trading,United Kingdom
+1912,Harbor Imports,Morocco
+1913,Willow Wholesale,Morocco
+1914,Silver Oak Company,Greece
+1915,Crescent Supplies,Egypt
+1916,Greenstone Solutions,Greece
+1917,TrueNorth Solutions,Canada
+1918,TrueNorth Marketplace,Ireland
+1919,Sunrise Wholesale,Poland
+1920,Ironwood Products,Philippines
+1921,Oak Pine Solutions,Morocco
+1922,Springwell Goods,Japan
+1923,Brightway Supplies,Indonesia
+1924,TrueNorth Stores,United States
+1925,Northstar Commerce,Ukraine
+1926,Horizon Imports,Saudi Arabia
+1927,Unity Direct,Philippines
+1928,Oakridge Exports,Greece
+1929,Crown Ventures,Brazil
+1930,Redwood Stores,United Arab Emirates
+1931,Harbor Commerce,Portugal
+1932,Cloudline Direct,Qatar
+1933,Willow Commerce,Saudi Arabia
+1934,Springwell Exports,Egypt
+1935,Ironwood Marketplace,Colombia
+1936,Lighthouse Wholesale,United Arab Emirates
+1937,Blue River Exports,Mexico
+1938,Cloudline Goods,Pakistan
+1939,Crescent Direct,Switzerland
+1940,Cedar Imports,Sri Lanka
+1941,Marketway Imports,Sweden
+1942,Westlake Ventures,Portugal
+1943,Crescent Retail,Kenya
+1944,Cobalt Marketplace,Poland
+1945,Summit Ventures,Philippines
+1946,Skyline Marketplace,Japan
+1947,Northstar Stores,Australia
+1948,Meridian Enterprises,Austria
+1949,Redwood Wholesale,Malaysia
+1950,TrueNorth Retail,Poland
+1951,Cobalt Goods,Austria
+1952,Unity Commerce,Canada
+1953,Clearwater Products,Canada
+1954,Eastwood Trading,Switzerland
+1955,Sunrise Distributors,Italy
+1956,Grand Avenue Enterprises,Saudi Arabia
+1957,Vertex Company,Chile
+1958,Skyline Trading,Australia
+1959,Westbridge Distributors,Saudi Arabia
+1960,Silverline Company,Qatar
+1961,Westbridge Stores,Singapore
+1962,Westbridge Imports,United Arab Emirates
+1963,Springwell Stores,Saudi Arabia
+1964,Golden Gate Imports,South Africa
+1965,Greenstone Merchants,Kenya
+1966,Urban Nest Marketplace,Bangladesh
+1967,Beacon Imports,Switzerland
+1968,Stonewell Wholesale,Chile
+1969,TrueNorth Commerce,United States
+1970,Redstone Products,Kenya
+1971,Stonewell Goods,Egypt
+1972,Crescent Solutions,New Zealand
+1973,Pinecrest Supplies,Finland
+1974,Evergreen Direct,Australia
+1975,Beacon Merchants,Mexico
+1976,Marketway Marketplace,Belgium
+1977,Westbridge Supplies,Greece
+1978,Bridgepoint Exports,Bangladesh
+1979,Sunrise Goods,Sri Lanka
+1980,Maple Leaf Supplies,Indonesia
+1981,Meadowbrook Wholesale,Vietnam
+1982,Valley Forge Enterprises,Malaysia
+1983,Northstar Products,Austria
+1984,Fairview Commerce,Pakistan
+1985,Pioneer Wholesale,New Zealand
+1986,Riverside Company,Malaysia
+1987,Brightfield Imports,Ukraine
+1988,Redstone Distributors,Vietnam
+1989,Evercrest Products,Spain
+1990,Westlake Retail,Saudi Arabia
+1991,Skyline Ventures,Saudi Arabia
+1992,Bluebird Enterprises,Peru
+1993,Silver Oak Products,Turkey
+1994,Atlas Wholesale,United Arab Emirates
+1995,Oakridge Ventures,Japan
+1996,Bluepeak Supplies,Malaysia
+1997,Willow Supplies,United Kingdom
+1998,Oak Pine Merchants,Italy
+1999,Westbridge Wholesale,Indonesia
+2000,Prime Path Marketplace,Malaysia
