@@ -385,7 +385,7 @@ SELECT
     total_sales,
     rnk
 FROM ranked_customers
-WHERE rnk <= 5
+WHERE rnk <= 5;
 -- ORDER BY state, rnk, customer_id;
 
 /*
@@ -393,3 +393,84 @@ WHERE rnk <= 5
 Calculate the total revenue handled by each shipping provider.
 Challenge: Include the total number of orders handled and the average delivery time for each provider.
 */
+
+select
+	sp.shipping_providers,
+    sum(oi.total_price) as total_revenue,
+    count(distinct o.order_id) as total_orders,
+    coalesce(avg(datediff(sp.shipping_date, o.order_date)), 0) as avg_delivery_time
+from shipping sp
+JOIN orders o
+ON sp.order_id = o.order_id
+JOIN order_items oi
+ON o.order_id = oi.order_id
+group by sp.shipping_providers;
+
+/*
+20. Top 10 product with highest decreasing revenue ratio compare to last year(2025) and current_year(2026)
+Challenge: Return product_id, product_name, category_name, 2025 revenue and 2026 revenue decrease ratio at end Round the result
+
+Note: Decrease ratio = cr-ls/ls* 100 (cs = current_year ls=last_year)
+*/
+with current_year_data as (
+select
+	p.product_id,
+    p.product_name,
+    sum(oi.total_price) as total_revenue
+from orders o
+join order_items oi
+on o.order_id = oi.order_id
+join products p
+on oi.product_id = p.product_id
+where year(o.order_date) = 2026
+group by p.product_id, p.product_name)
+
+,last_year_data as (
+select
+	p.product_id,
+    p.product_name,
+    sum(oi.total_price) as total_revenue
+from orders o
+join order_items oi
+on o.order_id = oi.order_id
+join products p
+on oi.product_id = p.product_id
+where year(o.order_date) = 2025
+group by p.product_id, p.product_name)
+
+select
+	cr.product_id,
+    cr.product_name,
+    cr.total_revenue as current_year_revenue,
+    ls.total_revenue as last_year_revenue,
+    cr.total_revenue - ls.total_revenue as revenue_diff,
+	round(((cr.total_revenue - ls.total_revenue)/ls.total_revenue) * 100,2) as diff_perc
+from last_year_data ls
+join current_year_data cr
+on ls.product_id = cr.product_id
+where ls.total_revenue > cr.total_revenue
+order by diff_perc asc
+limit 10
+;
+
+/*
+14. Orders Pending Shipment
+Find orders that have been paid but are still pending shipment.
+Challenge: Include order details, payment date, and customer information.
+*/
+
+
+
+
+/*
+17. Cross-Sell Opportunities
+Find customers who purchased product A but not product B (e.g., customers who bought AirPods but not AirPods Max).
+Challenge: Suggest cross-sell opportunities by displaying matching product categories.
+*/
+
+/*
+Final Task 
+-- Store Procedure
+create a function as soon as the product is sold the the same quantity should reduced from inventory table
+after adding any sales records it should update the stock in the inventory table based on the product and qty purchased
+-- 

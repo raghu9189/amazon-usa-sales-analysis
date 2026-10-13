@@ -77,6 +77,8 @@ Here are some of the key business problems and questions answered using advanced
 14. **Inactive Sellers**: Identified sellers who haven’t made any sales in the last 6 months, including their last sale date and total sales.
 15. **Customer Classification (Returning vs. New)**: Categorized customers into 'Returning' or 'New' based on return thresholds (more than 5 returns categorized as returning), displaying total orders and returns.
 16. **Top 5 Customers by Orders in Each State**: Identified the top 5 customers with the highest number of orders for each state using window ranking (`DENSE_RANK()`), displaying total orders and total sales.
+17. **Revenue by Shipping Provider**: Calculated the total revenue handled by each shipping provider, along with the total number of orders handled and average delivery turnaround time using `DATEDIFF()` and `COALESCE()`.
+18. **Top Decreasing Revenue Products (YoY)**: Identified the top 10 products with the highest decreasing revenue ratio comparing last year (2025) and current year (2026) using Common Table Expressions (CTEs) and year-over-year revenue difference calculations.
 
 ## 💡 Learning Outcomes
 
@@ -84,7 +86,8 @@ This project enabled me to:
 - Design and implement a normalized database schema with relational integrity.
 - Clean and preprocess real-world datasets for analysis.
 - Use advanced SQL techniques, including **window functions** (`DENSE_RANK()`, `RANK()`, `LAG()`), **CTEs (Common Table Expressions)**, **subqueries**, and **complex multi-table joins**.
-- Apply conditional logic (`CASE WHEN`) and date manipulations (`DATEDIFF()`, `INTERVAL`).
+- Apply conditional logic (`CASE WHEN`) and date manipulations (`DATEDIFF()`, `INTERVAL`, `YEAR()`).
+- Conduct Year-over-Year (YoY) revenue trend and growth/decline comparative analyses.
 - Conduct in-depth business analysis and data modeling using SQL.
 - Optimize query performance and handle large datasets efficiently.
 
